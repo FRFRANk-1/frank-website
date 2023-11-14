@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import { HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router";
+
+// import { configureStore } from "@reduxjs/toolkit";
+// import { Provider } from "react-redux";
+
+import WebsiteRoutes from "./routes";
+import GlobalNav from "./components/navigation/nav-bar";
+
+// const store = configureStore({
+//   reducer: {
+//     user: userReducer,
+//   },
+// });
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <HashRouter>
+        <div classname="App">
+        <GlobalNav/>
+        <WebsiteRoutes />
+        </div>
+      </HashRouter>
+
   );
 }
 
