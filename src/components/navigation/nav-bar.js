@@ -8,16 +8,21 @@ function GlobalNav() {
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-8">
-                    <div className="frosted-glass">
+                    <div class="float">
                         <Navbar variant="dark" expand="lg" className="navbar-content">
                             <Link to="home" className="logo div" >
                             <img className="frank-logo" src={Logo} alt="Frank Logo"  />
                             </Link>
-                        </Navbar>
+
+                            <Link to="about" className="nav-link">
+                                About
+                            </Link>
+
+                            <Link to="resume" className="nav-link">
+                                Resume
+                            </Link>
+                        </Navbar>    
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <h1>djaio</h1>
                 </div>
             </div>
         </div>
