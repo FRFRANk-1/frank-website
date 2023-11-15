@@ -1,7 +1,18 @@
-function resume() {
+import React, {useEffect} from 'react';
+import pdf from './Runcheng_Resume.pdf';
+
+function Resume() {
+    useEffect(() => {
+        
+        window.open(pdf, '_blank');
+    }, []); 
+
     return (
-        <div>
-            <h1>Resume</h1>
+        <div className='App'>
+            
+            <a href={pdf} target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
-    )
+    );
 }
+
+export default Resume;

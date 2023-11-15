@@ -18,7 +18,7 @@ function GlobalNav() {
                                 About
                             </Link>
 
-                            <Link to="resume" className="nav-link">
+                            <Link to="resume" className="nav-link ">
                                 Resume
                             </Link>
                         </Navbar>    
