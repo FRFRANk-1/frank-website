@@ -1,4 +1,4 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/FL-ICON.png";
 import "./nav-bar.css";
