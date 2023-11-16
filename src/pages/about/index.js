@@ -3,12 +3,12 @@ import picture1 from "../../assets/images/IMG_0812.JPG";
 import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
 import picture3 from "../../assets/images/UIUC 2022.png";
 function about() {
-  const email = "li.runch@northeastern.edu";
+  const email = "rlifrank18@gmail.com";
   const linkedinUrl = "https://www.linkedin.com/in/runcheng-li-1b9748205/";
 
   return (
-    <div className="container text-center">
-      <h1 className="intro-1">Hi, I am Frank!</h1>
+    <div className="container ">
+      <h1 className="intro-1 pt-3 ">Hi, I am Frank!</h1>
       <div className="content">
         <div className="text-content">
           <p className="intro-2">
@@ -28,13 +28,13 @@ function about() {
           </p>
         </div>
         <div className="image-content">
-          <img src={picture1} className="frank-picture" alt="Frank"></img>
+          <img src={picture1} className="frank-picture hover-effect" alt="Frank"></img>
         </div>
       </div>
 
       <div className="ad experience">
         <h1>Additional Experience:</h1>
-        <div className="additional-experience">
+        <div className="additional-experience px-2">
           <p>
             In addition to my academic and professional pursuits, I have
             developed a strong passion for multimedia production and content
@@ -42,9 +42,9 @@ function about() {
           </p>
           <ul>
             <li>
-              <strong>Multimedia Production:</strong> Proficient in Davinci
-              Resolve for video editing, color grading, and using its Fusion
-              feature for visual effects. Skilled in Adobe Photoshop and
+              <strong>Multimedia Production:</strong> Proficient in <strong>Davinci
+              Resolve</strong> for video editing, color grading, and using its Fusion
+              feature for visual effects. Skilled in <strong>Adobe Photoshop</strong> and
               Lightroom for graphic design and photo editing.
             </li>
             <li>
@@ -56,15 +56,20 @@ function about() {
         </div>
         <div className="media-showcase">
           <div className="col-md-6 photo-showcase">
-            <h3>Commercial Photography:</h3>
-            <img src={picture2} className="picture2" alt="Commercial Photography" />
+            <h3 className="description-1 py-4">Commercial Photography:</h3>
+            <img src={picture2} className="picture2 hover-effect" alt="Commercial Photography" />
           </div>
           <div className="col-md-6 video-showcase">
-            <h3>Video Editing:</h3>
-            <img src={picture3} className="picture3" alt="Video Editing" />
-            <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0" className="video-link">
-                University of Illinois Urbana-Champaign </a>
-          </div>
+    <h3 className="description-2 py-4">Video Production:</h3>
+    <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0">
+        <img src={picture3} className="picture3 hover-effect" alt="Video Editing" />
+    </a>
+    <br></br>
+    <br></br>
+    <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0" className="video-link ">
+        University of Illinois Urbana-Champaign 
+    </a>
+</div>
         </div>
       </div>
       <h2 className="intro-3">Contact:</h2>

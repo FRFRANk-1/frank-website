@@ -5,7 +5,7 @@ import "./index.css";
 function Home() {
   return (
     <div>
-      <div className="container text-center">
+      <div className="container border-top border-secondary ">
         <div className="row">
           <div className="col intro ">
             <h1>
@@ -23,23 +23,20 @@ function Home() {
             <p className="work experience">Previous Work experience: </p>
             <li className="list">
               Mechanical design engineer: Hexagon Manufacturing Intelligence
-              <li>Manufacturing engineer: Global Bedding Solution</li>
+              (RI)
+              <li>Manufacturing engineer: Global Bedding Solution (MA) </li>
             </li>
 
-            <center>
-              <img
-                className="img hexagon text-center"
-                src={Hexagon}
-                alt="hexagon"
-              />
-            </center>
+            <div className="hexagon ">
+            <img
+              className="img hexagon hover-effect"
+              src={Hexagon}
+              alt="hexagon"
+            />
 
-            <center>
-              <img className="img showcase" src={showcase} alt="showcase" />
-              <p className="hexagon-text">
-                Hexagon Tempo drawer support system
-              </p>
-            </center>
+            <img className="img showcase hover-effect" src={showcase} alt="showcase" />
+            </div>
+            <p className="hexagon-text">Hexagon Tempo drawer support system</p>
           </div>
         </div>
       </div>

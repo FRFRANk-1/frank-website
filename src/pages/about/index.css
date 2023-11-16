@@ -65,10 +65,14 @@
     margin-left: 20px;
 }
 
+.additional-experience{
+  font-size: 20px;
+}
+
 .picture2{
-    width: 30%; 
+    width: 100%; 
     height: auto;
-    margin-left: 20px;
+    position:relative; left: 53%;
 }
 
 .video-showcase{
@@ -76,7 +80,33 @@
 }
 
 .picture3{
-    width: 30%; 
+    width: 110%; 
     height: auto;
     margin-left: 20px;
+    margin-top: 0px;
+    position:relative; left: 45%;
+}
+
+.description-1{
+  position:relative; left: 80%;
+}
+
+.description-2{
+  position:relative; left: 88%;
+}
+
+.video-link{
+  position:relative; left: 70%;
+  margin-bottom: -50px;
+  font-size: 25px;
+
+}
+
+.hover-effect {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
 }
