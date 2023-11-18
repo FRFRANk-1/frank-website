@@ -11,13 +11,14 @@
     margin: 0 auto;
 }
 
-.img.showcase{
+/* .img.showcase{
     max-width: 700px;
     max-height: 500px;
-}
+} */
 
 .row{
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 .col-sm-8.intro{

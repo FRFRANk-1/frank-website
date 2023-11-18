@@ -56,13 +56,13 @@ function about() {
         </div>
         <div className="media-showcase">
           <div className="col-md-6 photo-showcase">
-            <h3 className="description-1 py-4">Commercial Photography:</h3>
-            <img src={picture2} className="picture2 hover-effect" alt="Commercial Photography" />
+            <h3 className="description-1 text-center py-4">Commercial Photography:</h3>
+            <img src={picture2} className="picture2 img-fluid hover-effect" alt="Commercial Photography" />
           </div>
           <div className="col-md-6 video-showcase">
-    <h3 className="description-2 py-4">Video Production:</h3>
+    <h3 className="description-2 text-center py-4">Video Production:</h3>
     <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0">
-        <img src={picture3} className="picture3 hover-effect" alt="Video Editing" />
+        <img src={picture3} className="picture3 img-fluid hover-effect" alt="Video Editing" />
     </a>
     <br></br>
     <br></br>

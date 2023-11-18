@@ -28,13 +28,17 @@ function Home() {
             </li>
 
             <div className="hexagon ">
-            <img
-              className="img hexagon hover-effect"
-              src={Hexagon}
-              alt="hexagon"
-            />
+              <img
+                className="img-fluid hexagon hover-effect py-5"
+                src={Hexagon}
+                alt="hexagon"
+              />
 
-            <img className="img showcase hover-effect" src={showcase} alt="showcase" />
+              <img
+                className="img-fluid showcase hover-effect py-5"
+                src={showcase}
+                alt="showcase"
+              />
             </div>
             <p className="hexagon-text">Hexagon Tempo drawer support system</p>
           </div>
