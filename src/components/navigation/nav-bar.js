@@ -14,7 +14,7 @@ function GlobalNav() {
                             <img className="frank-logo" src={Logo} alt="Frank Logo"  />
                             </Link>
 
-                            <Link to="about" className="nav-link">
+                            <Link to="about" className="nav-link float-right">
                                 About
                             </Link>
 

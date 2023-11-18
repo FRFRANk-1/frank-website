@@ -53,7 +53,7 @@ function about() {
               creativity to produce compelling visual content.
             </li>
           </ul>
-        </div>
+        </div>  
         <div className="media-showcase">
           <div className="col-md-6 photo-showcase">
             <h3 className="description-1 text-center py-4">Commercial Photography:</h3>

@@ -87,6 +87,7 @@
 
 .description-1{
   position:relative;
+  text-align: center;
 }
 
 .description-2{
@@ -107,4 +108,34 @@
 .hover-effect:hover {
   transform: scale(1.1);
   opacity: 0.8;
+}
+
+.media-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.col-md-6 {
+  flex: 1; 
+  max-width: 50%; 
+  padding: 15px; 
+  text-align: center; 
+}
+
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    max-width: 100%; 
+  }
+}
+
+
+.media-showcase h3,
+.media-showcase img,
+.media-showcase a {
+  text-align: center;
+  margin: 0 auto; 
 }
