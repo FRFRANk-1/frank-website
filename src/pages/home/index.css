@@ -78,3 +78,29 @@
     transform: scale(1.1);
     opacity: 0.8;
   }
+
+  @media (max-width: 1170px) {
+    .content, .media-showcase, .col-md-6, .image-content, .text-content {
+      flex: 1 1 100%;
+      max-width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  
+    .image-content, .text-content {
+      padding-right: 0; /* Remove padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-6 {
+      max-width: 100%;
+    }
+  }
+  
+  .media-showcase h3,
+  .media-showcase img,
+  .media-showcase a {
+    text-align: center;
+    margin: 0 auto;
+  }
