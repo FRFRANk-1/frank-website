@@ -4,6 +4,7 @@ import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
 import picture3 from "../../assets/images/UIUC 2022.png";
 import picture4 from "../../assets/images/UI_UX_Genz.png";
 import picture5 from "../../assets/images/NEU_Collab.jpg";
+import picture6 from "../../assets/images/IMG_3446.JPG";
 function about() {
   const email = "rlifrank18@gmail.com";
   const linkedinUrl = "https://www.linkedin.com/in/runcheng-li-1b9748205/";
@@ -81,26 +82,24 @@ function about() {
               for high-end graphic design and photo editing, contributing to
               enhanced visual storytelling and brand presentation.
             </li>
-
-
           </ul>
         </div>
         <div className="media-showcase">
           <div className="col-md-10 photo-showcase">
-            
             <h3 className="description-1 text-center py-4">
               NEU Project Search Website:
             </h3>
             <a href="https://neu-colab.netlify.app/" className="photo-link">
-            
-            <img
-              src={picture5}
-              className="picture5 img-fluid hover-effect"
-              alt="NEU Project Search Website"
-            />
+              <img
+                src={picture5}
+                className="picture5 img-fluid hover-effect"
+                alt="NEU Project Search Website"
+              />
             </a>
-            
-            <a href="https://neu-colab.netlify.app/" className="photo-link"> NEU Collab
+
+            <a href="https://neu-colab.netlify.app/" className="photo-link">
+              {" "}
+              NEU Collab
             </a>
 
             <div className="col-md-12 uiux-showcase">
@@ -121,8 +120,7 @@ function about() {
                 Travel Planning App - GenZ
               </a>
             </div>
-          
-            
+
             <h3 className="description-1 text-center py-4">
               Commercial Photography:
             </h3>
@@ -131,26 +129,57 @@ function about() {
               className="picture2 img-fluid hover-effect"
               alt="Commercial Photography"
             />
-          
-          <div className="col-md-12 video-showcase">
-            <h3 className="description-2 text-center py-4">
-              Video Production:
-            </h3>
-            <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0">
-              <img
-                src={picture3}
-                className="picture3 img-fluid hover-effect"
-                alt="Video Editing"
-              />
-            </a>
             <br></br>
             <br></br>
-            <a
-              href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
-              className="video-link "
-            >
-              University of Illinois Urbana-Champaign
-            </a>
+            
+            <img 
+              src={picture6}
+              className="picture6 img-fluid hover-effect"
+              alt="Commercial Photography"
+            />
+
+            <div className="col-md-12 video-showcase text-center">
+              <h3 className="description-2 text-center py-4">
+                Video Production:
+              </h3>
+              {/* <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0">
+                <img
+                  src={picture3}
+                  className="picture3 img-fluid hover-effect"
+                  alt="Video Editing"
+                />
+              </a> */}
+              <br></br>
+              <br></br>
+              <div className="video-uiuc">
+              <iframe width={"640px"} height={"480px"}
+                src="//player.bilibili.com/player.html?aid=261204747&bvid=BV1je411j7SY&cid=874049816&p=1"
+                scrolling="no"
+                border="0"
+                frameborder="no"
+                framespacing="0"
+                allowfullscreen="true"
+              >
+                {" "}
+              </iframe>
+              </div> 
+              <a
+                href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
+                className="video-link "
+              >
+                University of Illinois Urbana-Champaign
+              </a>
+              <br></br>
+              <br></br>
+              <div className="FL-video">
+            <iframe width={"640px"} height={"480px"}
+            src="//player.bilibili.com/player.html?aid=825543064&bvid=BV1Wg4y1L7zJ&cid=1114529437&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+            </div>
+            <a href="https://www.bilibili.com/video/BV1Wg4y1L7zJ/?vd_source=29129ec6466690e99722869f8f8689c0"
+                className="video-link "
+              >
+                Florida-Key West
+              </a>
             </div>
           </div>
         </div>
