@@ -1,7 +1,7 @@
 import "./index.css";
 import picture1 from "../../assets/images/IMG_0812.JPG";
 import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
-import picture3 from "../../assets/images/UIUC 2022.png";
+// import picture3 from "../../assets/images/UIUC 2022.png";
 import picture4 from "../../assets/images/UI_UX_Genz.png";
 import picture5 from "../../assets/images/NEU_Collab.jpg";
 import picture6 from "../../assets/images/IMG_3446.JPG";
@@ -152,7 +152,8 @@ function about() {
               <br></br>
               <br></br>
               <div className="video-uiuc">
-              <iframe width={"640px"} height={"480px"}
+              <iframe title="UIUC-Campus Tour"
+              width={"640px"} height={"480px"}
                 src="//player.bilibili.com/player.html?aid=261204747&bvid=BV1je411j7SY&cid=874049816&p=1"
                 scrolling="no"
                 border="0"
@@ -172,7 +173,8 @@ function about() {
               <br></br>
               <br></br>
               <div className="FL-video">
-            <iframe width={"640px"} height={"480px"}
+            <iframe title="FL-Video"
+             width={"640px"} height={"480px"}
             src="//player.bilibili.com/player.html?aid=825543064&bvid=BV1Wg4y1L7zJ&cid=1114529437&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
             </div>
             <a href="https://www.bilibili.com/video/BV1Wg4y1L7zJ/?vd_source=29129ec6466690e99722869f8f8689c0"

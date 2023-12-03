@@ -5,7 +5,7 @@ import "./index.css";
 function Home() {
   return (
     <div>
-      <div className="container border-top border-secondary ">
+      <div className="container border-top  ">
         <div className="row">
           <div className="col intro ">
             <h1>
