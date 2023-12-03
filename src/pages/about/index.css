@@ -1,0 +1,149 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  flex: 0.7; /* Adjust as needed */
+  padding-right: 20px; /* Gives some space between text and image */
+}
+
+.image-content {
+  flex: 0.80;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.Background {
+  font-size: 40px;
+  color: #000;
+  font-weight: bold;
+}
+
+.intro-1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(58, 58, 146);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.intro-2 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #383838;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.frank-picture {
+  width: 100%;
+  height: auto;
+}
+
+.intro-3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(7, 7, 37);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.intro-group-1 {
+  margin-left: 50px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.ad.experience {
+  margin-left: 20px;
+}
+
+.additional-experience {
+  font-size: 20px;
+}
+
+.picture {
+  text-align: center;
+  border:10px;
+}
+
+.video-showcase {
+  margin-left: 0%;
+  padding-top: 2%;
+  overflow: hidden;
+}
+
+.picture4{
+    width: ;
+    margin-left: 0px;
+    margin-top: 0px;
+    position:relative; left:0%;
+}
+
+.description-1 {
+  position: relative;
+  text-align: center;
+}
+
+.description-2 {
+  position: relative;
+}
+
+
+.hover-effect {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.media-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.col-md-6 {
+  flex: 1;
+  max-width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+@media (max-width: 1170px) {
+  .content, .media-showcase, .col-md-6, .image-content, .text-content {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .image-content, .text-content {
+    padding-right: 0; /* Remove padding for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    max-width: 100%;
+  }
+}
+
+.media-showcase h3,
+.media-showcase img,
+.media-showcase a {
+  text-align: center;
+  margin: 0 auto;
+}
+

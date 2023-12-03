@@ -1,4 +1,4 @@
-import { Nav, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/images/FL-ICON.png";
 import "./nav-bar.css";
@@ -14,11 +14,11 @@ function GlobalNav() {
                             <img className="frank-logo" src={Logo} alt="Frank Logo"  />
                             </Link>
 
-                            <Link to="about" className="nav-link">
+                            <Link to="about" className="nav-link float-right">
                                 About
                             </Link>
 
-                            <Link to="resume" className="nav-link">
+                            <Link to="resume" className="nav-link ">
                                 Resume
                             </Link>
                         </Navbar>    

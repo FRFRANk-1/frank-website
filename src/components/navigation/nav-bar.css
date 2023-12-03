@@ -1,4 +1,25 @@
 .frank-logo {
-    width: 5%;
-    height: 5%;
+    width: 20%;
+    height: 20%;
+    position: relative; left: -45%;
+}
+
+.nav-link {
+    size: 50%;
+    font-size: 30px;
+    color: black;
+    position: relative; top:0px;
+    position: relative; left:65%;
+    padding-left: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(55, 202, 153);
+
+}
+
+.container.text-center{
+    margin-top: 1%;
 }

@@ -1,27 +1,51 @@
 import Hexagon from "../../assets/images/IMG_4077.jpeg";
 import showcase from "../../assets/images/IMG_4554.jpeg";
+import "./index.css";
 
-function Home(){
-    return (
-        <div>
-            <div className="container text-center">
-                <div className="row">
-                    <div className="col-sm-8">
-                        <h1>Hello! My name is Frank</h1>
-                    </div>
-                
-                    <div className="col-sm-4">
-                    <h2>I am a full stack web developer</h2>
-                    <p> Mechanical engineer at Hexagon</p>
-                    <p> Photographer, Video-edittor</p>
+function Home() {
+  return (
+    <div>
+      <div className="container border-top  ">
+        <div className="row">
+          <div className="col intro ">
+            <h1>
+              {" "}
+              <br></br>
+            </h1>
+            <h1 className="intro descrip-1">Hi! My name is Frank</h1>
+          </div>
 
-                    <img className="hexagon" src={Hexagon} alt="hexagon"  />
-                    <img className="showcase" src={showcase} alt="showcase"  />
-                    </div>
-                </div>
+          <div className=" ">
+            <h2 className="intro descrip-2">
+              I am an inspired graduate student in Computer Science at
+              Northeastern University
+            </h2>
+            <p className="work experience">Previous Work experience: </p>
+            <li className="list">
+              Mechanical design engineer: Hexagon Manufacturing Intelligence
+              (RI)
+              <li>Manufacturing engineer: Global Bedding Solution (MA) </li>
+            </li>
+
+            <div className="hexagon ">
+              <img
+                className="img-fluid hexagon hover-effect py-5"
+                src={Hexagon}
+                alt="hexagon"
+              />
+
+              <img
+                className="img-fluid showcase hover-effect py-5"
+                src={showcase}
+                alt="showcase"
+              />
             </div>
+            <p className="hexagon-text">Hexagon Tempo drawer support system</p>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Home; 
+export default Home;
