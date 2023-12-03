@@ -4,7 +4,7 @@ import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
 // import picture3 from "../../assets/images/UIUC 2022.png";
 import picture4 from "../../assets/images/UI_UX_Genz.png";
 import picture5 from "../../assets/images/NEU_Collab.jpg";
-import picture6 from "../../assets/images/IMG_3446.JPG";
+import picture6 from "../../assets/images/Harvard_2023_Pictures_1.png";
 function about() {
   const email = "rlifrank18@gmail.com";
   const linkedinUrl = "https://www.linkedin.com/in/runcheng-li-1b9748205/";
@@ -131,8 +131,8 @@ function about() {
             />
             <br></br>
             <br></br>
-            
-            <img 
+
+            <img
               src={picture6}
               className="picture6 img-fluid hover-effect"
               alt="Commercial Photography"
@@ -151,19 +151,21 @@ function about() {
               </a> */}
               <br></br>
               <br></br>
-              <div className="video-uiuc">
-              <iframe title="UIUC-Campus Tour"
-              width={"640px"} height={"480px"}
-                src="//player.bilibili.com/player.html?aid=261204747&bvid=BV1je411j7SY&cid=874049816&p=1"
-                scrolling="no"
-                border="0"
-                frameborder="no"
-                framespacing="0"
-                allowfullscreen="true"
-              >
-                {" "}
-              </iframe>
-              </div> 
+              <div className="video-showcase-uiuc">
+                <iframe
+                  title="UIUC-Campus Tour"
+                  width={"640px"}
+                  height={"480px"}
+                  src="//player.bilibili.com/player.html?aid=261204747&bvid=BV1je411j7SY&cid=874049816&p=1"
+                  scrolling="no"
+                  border="0"
+                  frameborder="no"
+                  framespacing="0"
+                  allowfullscreen="true"
+                >
+                  {" "}
+                </iframe>
+              </div>
               <a
                 href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
                 className="video-link "
@@ -172,12 +174,23 @@ function about() {
               </a>
               <br></br>
               <br></br>
-              <div className="FL-video">
-            <iframe title="FL-Video"
-             width={"640px"} height={"480px"}
-            src="//player.bilibili.com/player.html?aid=825543064&bvid=BV1Wg4y1L7zJ&cid=1114529437&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-            </div>
-            <a href="https://www.bilibili.com/video/BV1Wg4y1L7zJ/?vd_source=29129ec6466690e99722869f8f8689c0"
+              <div className="video-showcase-FL">
+                <iframe
+                  title="FL-Video"
+                  width={"640px"}
+                  height={"480px"}
+                  src="//player.bilibili.com/player.html?aid=825543064&bvid=BV1Wg4y1L7zJ&cid=1114529437&p=1"
+                  scrolling="no"
+                  border="0"
+                  frameborder="no"
+                  framespacing="0"
+                  allowfullscreen="true"
+                >
+                  {" "}
+                </iframe>
+              </div>
+              <a
+                href="https://www.bilibili.com/video/BV1Wg4y1L7zJ/?vd_source=29129ec6466690e99722869f8f8689c0"
                 className="video-link "
               >
                 Florida-Key West
