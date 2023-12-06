@@ -1,25 +1,34 @@
+/* nav-bar.css */
+
 .frank-logo {
-    width: 20%;
-    height: 20%;
-    position: relative; left: -45%;
+    max-width: 100px; /* Set a max-width for your logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar {
+    padding: 0.5rem 1rem; /* Adjust padding as necessary */
+    background-color: #2f608869;
 }
 
 .nav-link {
-    size: 50%;
-    font-size: 30px;
-    color: black;
-    position: relative; top:0px;
-    position: relative; left:65%;
-    padding-left: 20px;
+    font-size: 1rem; /* Use rem for font sizes for scalability */
+    color: rgb(35, 38, 87);
     font-style: italic;
     text-decoration: none;
+    font-size: large;
 }
 
-.nav-link:hover {
-    color: rgb(55, 202, 153);
-
+/* Use media queries to adjust navbar for different screen sizes */
+@media (max-width: 992px) {
+    .frank-logo {
+        max-width: 80px; /* Smaller logo on tablet */
+    }
 }
 
-.container.text-center{
-    margin-top: 1%;
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 0.9rem; /* Smaller font size on mobile */
+    }
 }
+
+/* You can add more specific styles or breakpoints as needed */

@@ -1,34 +1,26 @@
 import "./index.css";
 
+import React from "react";
 import photo1 from "../../assets/images/IMG_3446.JPG";
-import photo2 from "../../assets/images/1Y6A8185 - Copy.png";
+import photo2 from "../../assets/images/Harvard_2023_Pictures_1.png";
+import {photos} from "../../assets/photos";
 
 function PhotographyPortfolio() {
+
   return (
-    <div className="photo-portfolio container">
-      <h1 className="title"> Photography Portfolio</h1>
+<div className="photo-portfolio container">
+      <h1 className="title text-center">Photography Portfolio</h1>
       <div className="row">
-        {/* photo 1 */}
-        <div className="col-md-4 col-sm-6 mb-4"></div>
-        <div className="photo-item">
-          <img
-            src={photo1}
-            className="photo1 img-fluid hover-effect"
-            alt="photo1"
-          />
-          <p className="photo-description">The</p>
-        </div>
-      </div>
-      {/* photo 2 */}
-      <div className="col-md-4 col-sm-6 mb-4">
-        <div className="photo-item">
-          <img
-            src={photo2}
-            className="photo2 img-fluid hover-effect"
-            alt="photo2"
-          />
-          <p className="photo-description">The</p>
-        </div>
+        {photos.map((photo, index) => (
+          <div key={index} className="col-md-4 col-sm-6 mb-4 photo-item">
+            <img
+              src={photo}
+              className="img-fluid hover-effect"
+              alt={`photo-${index}`}
+            />
+            <p className="photo-description">Description for photo {index}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

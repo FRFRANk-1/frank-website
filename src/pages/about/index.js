@@ -11,7 +11,7 @@ function about() {
   const linkedinUrl = "https://www.linkedin.com/in/runcheng-li-1b9748205/";
 
   return (
-    <div className="container ">
+    <div className="container py-5">
       <h1 className="intro-1 pt-3 ">Hi, I am Frank!</h1>
       <div className="content">
         <div className="text-content">

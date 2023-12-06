@@ -1,6 +1,26 @@
-.App {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  background-color: cadetblue;
+/* App.css */
+
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding doesn't affect overall dimensions */
 }
 
+/* Set the background color for the app */
+.app {
+  background-color: #2f608869; /* Change this to your preferred background color */
+  min-height: 100vh; /* Ensures it takes the full height of the viewport */
+}
+
+/* Navbar specific styles */
+.navbar {
+  width: 100%; /* Ensures the navbar takes full width */
+  background-color: #000; /* Your preferred navbar background color */
+}
+
+/* Ensure the body takes the full width and has no margin */
+body {
+  margin: 0;
+  width: 100%;
+}
