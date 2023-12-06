@@ -1,0 +1,19 @@
+.photo-item {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .photo-img {
+    /* This will make sure the image takes up all available width and maintains aspect ratio */
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    /* Set a specific height for all images */
+    height: 200px;
+  }
+  
+  .photo-description {
+    /* Styling for the description text */
+    margin-top: 0.5rem;
+  }
+  

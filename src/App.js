@@ -9,14 +9,14 @@ import GlobalNav from "./components/navigation/nav-bar";
 
 function App() {
   return (
-
+      <div bg="dark" className="app">
       <HashRouter>
         <div classname="App">
         <GlobalNav/>
         <WebsiteRoutes />
         </div>
       </HashRouter>
-
+      </div>
   );
 }
 

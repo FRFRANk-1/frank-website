@@ -1,4 +1,5 @@
 import "./index.css";
+import { Link } from "react-router-dom";
 import picture1 from "../../assets/images/IMG_0812.JPG";
 import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
 // import picture3 from "../../assets/images/UIUC 2022.png";
@@ -10,7 +11,7 @@ function about() {
   const linkedinUrl = "https://www.linkedin.com/in/runcheng-li-1b9748205/";
 
   return (
-    <div className="container ">
+    <div className="container py-5">
       <h1 className="intro-1 pt-3 ">Hi, I am Frank!</h1>
       <div className="content">
         <div className="text-content">
@@ -86,24 +87,27 @@ function about() {
         </div>
         <div className="media-showcase">
           <div className="col-md-10 photo-showcase">
-            <h3 className="description-1 text-center py-4">
+            <h1 className="description-1 text-center py-4">
               NEU Project Search Website:
-            </h3>
+            </h1>
+
             <a href="https://neu-colab.netlify.app/" className="photo-link">
-              <img
-                src={picture5}
-                className="picture5 img-fluid hover-effect"
-                alt="NEU Project Search Website"
-              />
+              <div className="image-group">
+                <img
+                  src={picture5}
+                  className="picture5 img-fluid hover-effect"
+                  alt="NEU Project Search Website"
+                />
+              </div>
             </a>
 
             <a href="https://neu-colab.netlify.app/" className="photo-link">
               {" "}
-              NEU Collab
+              <h4>NEU Collab</h4>
             </a>
 
             <div className="col-md-12 uiux-showcase">
-              <h3 className="description-3 text-center py-4">UI/UX Design:</h3>
+              <h1 className="description-3 text-center py-4">UI/UX Design:</h1>
               <a href="https://www.figma.com/proto/4FMI12FC37jIkLMuHQ5aLA/Travel-App?node-id=244-761&scaling=scale-down&page-id=244%3A719&starting-point-node-id=244%3A761">
                 <img
                   src={picture4}
@@ -115,15 +119,15 @@ function about() {
               <br></br>
               <a
                 href="https://www.figma.com/proto/4FMI12FC37jIkLMuHQ5aLA/Travel-App?node-id=244-761&scaling=scale-down&page-id=244%3A719&starting-point-node-id=244%3A761"
-                className="uiux-link"
+                className="uiux-link text-center py-4"
               >
-                Travel Planning App - GenZ
+                <h4>Travel Planning App - GenZ</h4>
               </a>
             </div>
 
-            <h3 className="description-1 text-center py-4">
+            <h1 className="description-1 text-center py-4">
               Commercial Photography:
-            </h3>
+            </h1>
             <img
               src={picture2}
               className="picture2 img-fluid hover-effect"
@@ -134,14 +138,23 @@ function about() {
 
             <img
               src={picture6}
-              className="picture6 img-fluid hover-effect"
+              className="picture6 img-fluid hover-effect py-5"
               alt="Commercial Photography"
             />
 
+            <Link
+              to="/PhotographyPortfolio"
+              className="Photo Portfolio link text-center py-4 "
+            >
+              <h2>
+                <h3>Link:</h3> Frank's Photography Portfolio
+              </h2>
+            </Link>
+
             <div className="col-md-12 video-showcase text-center">
-              <h3 className="description-2 text-center py-4">
+              <h1 className="description-2 text-center py-4">
                 Video Production:
-              </h3>
+              </h1>
               {/* <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0">
                 <img
                   src={picture3}
@@ -151,11 +164,10 @@ function about() {
               </a> */}
               <br></br>
               <br></br>
-              <div className="video-showcase-uiuc">
+
+              <div className="video-showcase-uiuc responsive-iframe-container">
                 <iframe
                   title="UIUC-Campus Tour"
-                  width={"640px"}
-                  height={"480px"}
                   src="//player.bilibili.com/player.html?aid=261204747&bvid=BV1je411j7SY&cid=874049816&p=1"
                   scrolling="no"
                   border="0"
@@ -168,17 +180,15 @@ function about() {
               </div>
               <a
                 href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
-                className="video-link "
+                className="video-link_uiuc "
               >
-                University of Illinois Urbana-Champaign
+                <h4>University of Illinois Urbana-Champaign</h4>
               </a>
               <br></br>
               <br></br>
-              <div className="video-showcase-FL">
+              <div className="video-showcase-FL responsive-iframe-container">
                 <iframe
                   title="FL-Video"
-                  width={"640px"}
-                  height={"480px"}
                   src="//player.bilibili.com/player.html?aid=825543064&bvid=BV1Wg4y1L7zJ&cid=1114529437&p=1"
                   scrolling="no"
                   border="0"
@@ -191,9 +201,9 @@ function about() {
               </div>
               <a
                 href="https://www.bilibili.com/video/BV1Wg4y1L7zJ/?vd_source=29129ec6466690e99722869f8f8689c0"
-                className="video-link "
+                className="video-link_FL"
               >
-                Florida-Key West
+                <h4>Florida-Key West</h4>
               </a>
             </div>
           </div>

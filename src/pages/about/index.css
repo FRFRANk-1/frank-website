@@ -46,6 +46,7 @@
   height: auto;
 }
 
+
 .intro-3 {
   font-size: 40px;
   font-weight: bold;
@@ -69,10 +70,6 @@
   font-size: 20px;
 }
 
-.picture {
-  text-align: center;
-  border:10px;
-}
 
 .video-showcase {
   margin-left: 0%;
@@ -81,9 +78,9 @@
 }
 
 .picture4{
-    width: ;
-    margin-left: 0px;
-    margin-top: 0px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
     position:relative; left:0%;
 }
 
@@ -121,17 +118,19 @@
   text-align: center;
 }
 
+.video-link{
+  font-size: large;
+}
+
 @media (max-width: 1170px) {
-  .content, .media-showcase, .col-md-6, .image-content, .text-content {
+  .content, .media-showcase, .col-md-6, .image-content, .text-content, .image-group {
     flex: 1 1 100%;
     max-width: 100%;
     padding: 10px;
     margin: 10px 0;
   }
 
-  .image-content, .text-content {
-    padding-right: 0; /* Remove padding for smaller screens */
-  }
+
 }
 
 @media (max-width: 768px) {
@@ -140,10 +139,35 @@
   }
 }
 
-.media-showcase h3,
-.media-showcase img,
-.media-showcase a {
-  text-align: center;
-  margin: 0 auto;
+@media (max-width: 480px) {
+  .content, .media-showcase, .col-md-6, .image-content, .text-content, .image-group {
+    flex-basis: 100%; /* Takes full width */
+    max-width: 120%; /* Ensures max width does not exceed 100% */
+  }
 }
 
+.picture2, .picture4, .picture5, .picture6 {
+  margin: 0px; /* Resets margin */
+  padding: 0px; /* Resets padding */
+}
+
+
+.image-content, .image-group {
+  overflow: hidden; /* This will hide any overflowing parts */
+}
+
+.responsive-iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* The percentage for 16:9 aspect ratio; adjust as needed for your content */
+  height: 0;
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
