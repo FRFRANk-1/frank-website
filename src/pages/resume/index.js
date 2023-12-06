@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import pdf from "./Runcheng_Resume.pdf";
 import resume from "./RL_Resume.png";
 
