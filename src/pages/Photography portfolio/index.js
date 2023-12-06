@@ -1,8 +1,6 @@
 import "./index.css";
 
 import React from "react";
-import photo1 from "../../assets/images/IMG_3446.JPG";
-import photo2 from "../../assets/images/Harvard_2023_Pictures_1.png";
 import {photos} from "../../assets/photos";
 
 function PhotographyPortfolio() {
