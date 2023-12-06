@@ -3,9 +3,6 @@ import pdf from "./Runcheng_Resume.pdf";
 import resume from "./RL_Resume.png";
 
 function Resume() {
-  // useEffect(() => {
-  //   window.open(pdf, "_blank");
-  // }, []);
 
   return (
     <div className="App container text-center p">
