@@ -14,7 +14,8 @@ function GlobalNav() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto"> {/* Changed ml-auto to ms-auto */}
                         <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-                        <Nav.Link as={NavLink} to="/PhotographyPortfolio">Photography/Portfolio</Nav.Link>
+                        <Nav.Link as={NavLink} to="/PhotographyPortfolio">Photography</Nav.Link>
+                        <Nav.Link as={NavLink} to="/VideoProductionPortfolio">Video Production</Nav.Link>
                         <Nav.Link as={NavLink} to="/resume">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
