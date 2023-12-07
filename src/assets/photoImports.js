@@ -21,4 +21,4 @@ import photo19 from './Photo_Portfolio/IMG_6384.PNG';
 import photo20 from './Photo_Portfolio/IMG_6385.PNG';
 import photo21 from './Photo_Portfolio/IMG_7780.jpg';
 
-export const photos = [photo0, photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];
+export const photoPaths = [photo0, photo1, photo2, photo3, photo4, photo5, photo6, photo7, photo8, photo9, photo10, photo11, photo12, photo13, photo14, photo15, photo16, photo17, photo18, photo19, photo20, photo21];

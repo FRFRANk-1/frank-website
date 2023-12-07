@@ -12,10 +12,10 @@
 
 .nav-link {
     font-size: 1rem; /* Use rem for font sizes for scalability */
-    color: rgb(35, 38, 87);
+    color: rgb(20, 36, 109);
     font-style: italic;
     text-decoration: none;
-    font-size: large;
+    font-size: 25px;
 }
 
 /* Use media queries to adjust navbar for different screen sizes */
