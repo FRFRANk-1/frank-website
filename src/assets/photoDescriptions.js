@@ -25,8 +25,8 @@ import photo21 from './Photo_Portfolio/IMG_7780.jpg';
 export const photoDescriptions = [
     { src: photo0, description: 'ClearWater, FL' },
     { src: photo1, description: 'Key West, FL' },
-    { src: photo2, description: 'NewPort, RI' },
-    { src: photo3, description: 'NewPort, RI' },
+    { src: photo2, description: 'Newport, RI' },
+    { src: photo3, description: 'Newport, RI' },
     { src: photo4, description: 'Dry Tortugas, FL' },
     { src: photo5, description: 'Westerly, RI' },
     { src: photo6, description: 'Route 89, AZ' },

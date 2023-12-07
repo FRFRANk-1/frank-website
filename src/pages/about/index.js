@@ -147,7 +147,7 @@ function about() {
               className="Photo Portfolio link text-center py-4 "
             >
               <h2>
-                <h3>Link:</h3> Frank's Photography Portfolio
+                Frank's Photography Portfolio
               </h2>
             </Link>
 
@@ -182,7 +182,7 @@ function about() {
                 href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
                 className="video-link_uiuc "
               >
-                <h4>University of Illinois Urbana-Champaign</h4>
+                <h4 className="video-descrip py-4">University of Illinois Urbana-Champaign</h4>
               </a>
               <br></br>
               <br></br>
@@ -203,9 +203,17 @@ function about() {
                 href="https://www.bilibili.com/video/BV1Wg4y1L7zJ/?vd_source=29129ec6466690e99722869f8f8689c0"
                 className="video-link_FL"
               >
-                <h4>Florida-Key West</h4>
+                <h4 className="video-descrip py-4">Florida-Key West</h4>
               </a>
             </div>
+            <Link
+              to="/VideoProductionPortfolio"
+              className="VideoProductionPortfolio link text-center py-4 "
+            >
+              <h2>
+                Frank's Video Production  Portfolio
+              </h2>
+            </Link>
           </div>
         </div>
       </div>
