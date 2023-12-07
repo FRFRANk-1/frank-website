@@ -18,9 +18,40 @@
   }
   
 .row{
-  margin-right: 11%;
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  gap: 20px;
 }
 
-.img-{
-  width: 50%;
+.col{
+  flex: 1; /* Each column will take up equal space */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Align items horizontally in the center */
+}
+
+.photo-img {
+  width: 100%; /* Full width of the container */
+  height: 300px; /* Fixed height for all images */
+  object-fit: cover; /* Cover the area without distortion */
+  margin-bottom: 0.5rem; /* Space between image and title */
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 1000;
+  margin-bottom: 0.5rem;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  color:color-mix(in hsl shorter hue, color percentage, color percentage);
+
+}
+
+.category-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  color:steelblue;
 }

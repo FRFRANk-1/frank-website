@@ -1,13 +1,13 @@
-
 // BEGIN: Import necessary libraries
-import React from 'react';
+import React from "react";
 // END: Import necessary libraries
 
 // BEGIN: Define the Landscape component
 const VideoCommericial = () => {
   return (
     <div className="video-portfolio container">
-      <h1 className="title text-center py-4">Video Landscape</h1>
+      <h1 className="title text-center py-4">Video Commerical</h1>
+
       <div className="video-showcase-uiuc responsive-iframe-container">
         <iframe
           title="UIUC-Campus Tour"
@@ -25,8 +25,9 @@ const VideoCommericial = () => {
         href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
         className="video-link_uiuc "
       >
-        <h4 className='video-descrip text-center'>University of Illinois Urbana-Champaign</h4>
+        <h4 className='category-name text-center py-4'>University Illinois Urbana-Champaign</h4>
       </a>
+      
     </div>
   );
 };

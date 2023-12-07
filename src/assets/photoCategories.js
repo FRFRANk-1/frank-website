@@ -20,7 +20,8 @@ import landscape10 from './Photo_Portfolio/Landscape/IMG_6384.PNG';
 import landscape11 from './Photo_Portfolio/Landscape/IMG_6385.PNG';
 import commercial0 from './Photo_Portfolio/Commercial/1Y6A8185 - Copy.png';
 import commercial1 from './Photo_Portfolio/Commercial/Harvard_2023_Pictures_1.png';
+import commercial2 from './Photo_Portfolio/Commercial/IMG_3452.JPG';
 
 export const portraitPhotos = [portrait0, portrait1, portrait2, portrait3, portrait4, portrait5, portrait6, portrait7];
 export const landscapePhotos = [landscape0, landscape1, landscape2, landscape3, landscape4, landscape5, landscape6, landscape7, landscape8, landscape9, landscape10, landscape11];
-export const commercialPhotos = [commercial0, commercial1];
+export const commercialPhotos = [commercial0, commercial1, commercial2];

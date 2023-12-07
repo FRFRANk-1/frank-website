@@ -14,6 +14,7 @@ import PhotographyCommercial from "./pages/Photography portfolio/PhotoCommericia
 import VideoProductionPortfolio from "./pages/VideoProductionPortfolio";
 import VideoLandscape from "./pages/VideoProductionPortfolio/VideoLandscape";
 import Vlog from "./pages/VideoProductionPortfolio/Vlog";
+import VideoCommericial from "./pages/VideoProductionPortfolio/VideoCommericial";
 
 
 function WebsiteRoutes() {
@@ -31,6 +32,7 @@ function WebsiteRoutes() {
       <Route path="/VideoProductionPortfolio" element={<VideoProductionPortfolio/>} />
       <Route path="/VideoProductionPortfolio/VideoLandscape" element={<VideoLandscape />} />
       <Route path="/VideoProductionPortfolio/Vlog" element={<Vlog />} />
+      <Route path="/VideoProductionPortfolio/VideoCommericial" element={<VideoCommericial/>} />
     </Routes>
   );
 }
