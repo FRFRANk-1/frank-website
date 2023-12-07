@@ -1,5 +1,5 @@
 import portrait0 from './Photo_Portfolio/Portrait/1Y6A0489.jpg';
-import portrait1 from './Photo_Portfolio/Portrait/1Y6A0490.PNG';
+import portrait1 from './Photo_Portfolio/Portrait/1Y6A0490.jpg';
 import portrait2 from './Photo_Portfolio/Portrait/1Y6A1963.jpg';
 import portrait3 from './Photo_Portfolio/Portrait/1Y6A6378.JPG';
 import portrait4 from './Photo_Portfolio/Portrait/1Y6A6380.JPG';
