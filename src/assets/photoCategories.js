@@ -1,11 +1,12 @@
 import portrait0 from './Photo_Portfolio/Portrait/1Y6A0489.jpg';
-import portrait1 from './Photo_Portfolio/Portrait/1Y6A1963.jpg';
-import portrait2 from './Photo_Portfolio/Portrait/1Y6A6378.JPG';
-import portrait3 from './Photo_Portfolio/Portrait/1Y6A6380.JPG';
-import portrait4 from './Photo_Portfolio/Portrait/8ce0e3caec362f4a8e9a63545eb3a98d.jpg';
-import portrait5 from './Photo_Portfolio/Portrait/8WWJ.PNG';
-import portrait6 from './Photo_Portfolio/Portrait/IMG_6138.jpg';
-import portrait7 from './Photo_Portfolio/Portrait/IMG_7780.jpg';
+import portrait1 from './Photo_Portfolio/Portrait/1Y6A0490.PNG';
+import portrait2 from './Photo_Portfolio/Portrait/1Y6A1963.jpg';
+import portrait3 from './Photo_Portfolio/Portrait/1Y6A6378.JPG';
+import portrait4 from './Photo_Portfolio/Portrait/1Y6A6380.JPG';
+import portrait5 from './Photo_Portfolio/Portrait/8ce0e3caec362f4a8e9a63545eb3a98d.jpg';
+import portrait6 from './Photo_Portfolio/Portrait/8WWJ.PNG';
+import portrait7 from './Photo_Portfolio/Portrait/IMG_6138.jpg';
+import portrait8 from './Photo_Portfolio/Portrait/IMG_7780.jpg';
 import landscape0 from './Photo_Portfolio/Landscape/90a8407e6b611658ae8f2f7748c173dc.jpg';
 import landscape1 from './Photo_Portfolio/Landscape/IMG_3105.JPG';
 import landscape2 from './Photo_Portfolio/Landscape/IMG_4383.JPG';
@@ -22,6 +23,6 @@ import commercial0 from './Photo_Portfolio/Commercial/1Y6A8185 - Copy.png';
 import commercial1 from './Photo_Portfolio/Commercial/Harvard_2023_Pictures_1.png';
 import commercial2 from './Photo_Portfolio/Commercial/IMG_3452.JPG';
 
-export const portraitPhotos = [portrait0, portrait1, portrait2, portrait3, portrait4, portrait5, portrait6, portrait7];
+export const portraitPhotos = [portrait0, portrait1, portrait2, portrait3, portrait4, portrait5, portrait6, portrait7, portrait8];
 export const landscapePhotos = [landscape0, landscape1, landscape2, landscape3, landscape4, landscape5, landscape6, landscape7, landscape8, landscape9, landscape10, landscape11];
 export const commercialPhotos = [commercial0, commercial1, commercial2];
