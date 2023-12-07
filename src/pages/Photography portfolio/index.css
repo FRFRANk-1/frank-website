@@ -18,11 +18,23 @@
   }
   
 .row{
-  margin-right: 11%;
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  gap: 20px;
 }
 
-.img-{
-  width: 80%;
+.col{
+  flex: 1; /* Each column will take up equal space */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Align items horizontally in the center */
+}
+
+.photo-img {
+  width: 100%; /* Full width of the container */
+  height: 300px; /* Fixed height for all images */
+  object-fit: cover; /* Cover the area without distortion */
+  margin-bottom: 0.5rem; /* Space between image and title */
 }
 
 .title {

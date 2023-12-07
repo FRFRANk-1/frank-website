@@ -1,12 +1,4 @@
 
-@media (max-width: 768px) {
-    .img.hexagon, .img.showcase {
-        max-width: 70%;
-        height: auto;
-    }
-}
-
-
 .row{
     margin-left: 100px;
     margin-right: 100px;
@@ -33,17 +25,24 @@
 
 }
 
+ul {
+  list-style-type: none; /* Removes default list bullet */
+  padding-left: 0; /* Aligns content to the left edge */
+}
+
+
 .container {
-    background-color: rgb(191, 203, 228);
+  background-color: #bfcbe4; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px; /* Optional: adds rounded corners to the container */
 }
 
-.work.experience{
-    font-style: italic;
-    font-size:25px;
-    color: #2c2c2c;
-    margin-top: 3%;
+.work-experience {
+  font-style: italic;
+  font-size: 25px;
+  color: #2c2c2c;
+  padding: 15px 0; /* Adds padding above and below the section */
 }
-
 .list{
     font-weight:lighter;
     font-size: 25px;
@@ -51,20 +50,27 @@
     margin-left: -0%;
 }
 
-.hexagon-text{
-    font-size: 20px;
-    font-weight: lighter;
-    font-style: italic;
+.hexagon-text {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center; /* Centers the description */
+  padding-top: 10px; /* Adds space between the image and the text */
 }
 
+
+.text-center {
+  text-align: center;
+}
 
 .hover-effect {
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
   .hover-effect:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
+    transform: scale(1.05); /* Slightly less scale for subtlety */
+    opacity: 0.9; /* Less opacity change for subtlety */
+    transition: transform 0.2s ease, opacity 0.2s ease; /* Faster transition for responsiveness */
   }
 
   @media (max-width: 1170px) {
@@ -81,7 +87,8 @@
   }
   
   @media (max-width: 768px) {
-    .col-md-6 {
+    .col {
+      flex-basis: 100%; /* Forces columns to take full width */
       max-width: 100%;
     }
   }
@@ -93,6 +100,10 @@
     margin: 0 auto;
   }
 
-.img-fluid {
-    width:100%;
-}
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Prevents inline spacing */
+    margin: 0 auto; /* Centers image in the column if it's not full-width */
+  }
+
