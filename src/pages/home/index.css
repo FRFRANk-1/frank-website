@@ -6,15 +6,6 @@
     }
 }
 
-.img.hexagon{
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* .img.showcase{
-    max-width: 700px;
-    max-height: 500px;
-} */
 
 .row{
     margin-left: 100px;
@@ -66,11 +57,6 @@
     font-style: italic;
 }
 
-.img.showcase{
-    margin-left: 5%;
-}
-
-
 
 .hover-effect {
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -106,3 +92,7 @@
     text-align: center;
     margin: 0 auto;
   }
+
+.img-fluid {
+    width:100%;
+}
