@@ -13,6 +13,7 @@ function PhotographyPortfolio() {
   return (
     <div className="photo-portfolio container">
       <h1 className="title text-center py-4">Photography Portfolio</h1>
+      
       <div className="Photo session py-4 text-center">
         <Link
           to="/PhotographyPortfolio/Portrait"
@@ -37,6 +38,7 @@ function PhotographyPortfolio() {
         </Link>
       </div>
     </div>
+    
   );
 }
 

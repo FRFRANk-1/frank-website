@@ -1,0 +1,9 @@
+.title{
+    font-size: 2rem;
+    font-weight: 1000;
+    margin-bottom: 0.5rem;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color:color-mix(in hsl shorter hue, color percentage, color percentage);
+}
+
