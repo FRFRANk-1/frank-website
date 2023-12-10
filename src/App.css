@@ -9,14 +9,14 @@
 
 /* Set the background color for the app */
 .app {
-  background-color: #2f608869; /* Change this to your preferred background color */
+  background-color: #4f51e669; /* Change this to your preferred background color */
   min-height: 100vh; /* Ensures it takes the full height of the viewport */
 }
 
 /* Navbar specific styles */
 .navbar {
   width: 100%; /* Ensures the navbar takes full width */
-  background-color: #000; /* Your preferred navbar background color */
+  background-color: #1417df69; /* Your preferred navbar background color */
 }
 
 /* Ensure the body takes the full width and has no margin */
