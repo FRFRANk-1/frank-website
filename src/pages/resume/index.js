@@ -1,5 +1,5 @@
 import pdf from "./Runcheng_Resume.pdf";
-import resume from "./RL_Resume.png";
+import resume from "./RL_Resume.jpg";
 import "./index.css";
 function Resume() {
 
