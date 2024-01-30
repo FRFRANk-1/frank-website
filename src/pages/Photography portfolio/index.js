@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import img1 from "../../assets/Photo_Portfolio/1Y6A0489.jpg";
 import img2 from "../../assets/Photo_Portfolio/90a8407e6b611658ae8f2f7748c173dc.jpg";
 import img3 from "../../assets/Photo_Portfolio/Harvard_2023_Pictures_1.png";
+import img4 from "../../assets/Photo_Portfolio/Wedding/IMG_8980.JPG";
 
 // PhotographyPortfolio.js
 // ... import statements ...
@@ -27,16 +28,23 @@ function PhotographyPortfolio() {
             <h3 className="category-name text-center">Landscape</h3>
           </Link>
         </div>
+        </div>
+        <div className="row"> 
         <div className="col">
           <Link to="/PhotographyPortfolio/PhotoGraphyCommercial" className="photo-portfolio-link">
             <img src={img3} alt="Commercial" className="photo-img" />
             <h3 className="category-name text-center">Commercial</h3>
           </Link>
         </div>
+        <div className="col">
+          <Link to="/PhotographyPortfolio/Wedding" className="photo-portfolio-link">
+            <img src={img4} alt="Wedding" className="photo-img" />
+            <h3 className="category-name text-center">Wedding</h3>
+          </Link>
+          </div>
       </div>
     </div>
   );
 }
 
 export default PhotographyPortfolio;
-

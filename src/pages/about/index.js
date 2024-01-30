@@ -1,6 +1,6 @@
 import "./index.css";
 import { Link } from "react-router-dom";
-import picture1 from "../../assets/images/IMG_0812.JPG";
+import picture1 from "../../assets/images/Frank_1.png";
 import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
 // import picture3 from "../../assets/images/UIUC 2022.png";
 import picture4 from "../../assets/images/UI_UX_Genz.png";
@@ -128,13 +128,13 @@ function about() {
             <h1 className="description-1 text-center py-4">
               Commercial Photography:
             </h1>
-            <img
+            {/* <img
               src={picture2}
               className="picture2 img-fluid hover-effect"
               alt="Commercial Photography"
             />
             <br></br>
-            <br></br>
+            <br></br> */}
 
             <img
               src={picture6}
@@ -146,14 +146,12 @@ function about() {
               to="/PhotographyPortfolio"
               className="Photo Portfolio link text-center py-4 "
             >
-              <h2>
-                Frank's Photography Portfolio
-              </h2>
+              <h2>Frank's Photography Portfolio</h2>
             </Link>
 
             <div className="col-md-12 video-showcase text-center">
               <h1 className="description-2 text-center py-4">
-                Video Production:
+                Professional Video Production:
               </h1>
               {/* <a href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0">
                 <img
@@ -164,6 +162,18 @@ function about() {
               </a> */}
               <br></br>
               <br></br>
+
+              <div className="video-showcase-wedding responsive-iframe-container">
+              <iframe
+                  title="FL-Video"
+                  src="//player.bilibili.com/player.html?aid=751814264&bvid=BV1nk4y1S7KT&cid=1419434134&p=1"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <a href="https://www.bilibili.com/video/BV1nk4y1S7KT/?vd_source=29129ec6466690e99722869f8f8689c0" className="video-link_wedding">
+                <h4 className="video-descrip py-4">Boston Wedding, Cambridge 2024</h4>
+              </a>
+
 
               <div className="video-showcase-uiuc responsive-iframe-container">
                 <iframe
@@ -182,11 +192,13 @@ function about() {
                 href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
                 className="video-link_uiuc "
               >
-                <h4 className="video-descrip py-4">University of Illinois Urbana-Champaign</h4>
+                <h4 className="video-descrip py-4">
+                  University of Illinois Urbana-Champaign
+                </h4>
               </a>
               <br></br>
               <br></br>
-              <div className="video-showcase-FL responsive-iframe-container">
+              {/* <div className="video-showcase-FL responsive-iframe-container">
                 <iframe
                   title="FL-Video"
                   src="//player.bilibili.com/player.html?aid=825543064&bvid=BV1Wg4y1L7zJ&cid=1114529437&p=1"
@@ -205,14 +217,13 @@ function about() {
               >
                 <h4 className="video-descrip py-4">Florida-Key West</h4>
               </a>
+            </div> */}
             </div>
             <Link
               to="/VideoProductionPortfolio"
               className="VideoProductionPortfolio link text-center py-4 "
             >
-              <h2>
-                Frank's Video Production  Portfolio
-              </h2>
+              <h3>Frank's Video Production Portfolio</h3>
             </Link>
           </div>
         </div>

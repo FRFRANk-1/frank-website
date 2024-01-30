@@ -42,6 +42,18 @@ const VideoProductionPortfolio = () => {
               <h2 className="category-name">Vlog</h2>
             </Link>
           </div>
+          <div className="col-md-5 text-center">
+            <Link to="/VideoProductionPortfolio/wedding" className="photo-portfolio-link">
+              <div className="video-showcase-FL responsive-iframe-container">
+                <iframe
+                  title="FL-Video"
+                  src="//player.bilibili.com/player.html?aid=751814264&bvid=BV1nk4y1S7KT&cid=1419434134&p=1"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <h2 className="category-name">Wedding</h2>
+            </Link>
+            </div>
         </div>
       </div>
     );
