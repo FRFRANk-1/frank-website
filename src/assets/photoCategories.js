@@ -19,7 +19,6 @@ import portrait17 from './Photo_Portfolio/Portrait/IMG_1508.jpg';
 import portrait18 from './Photo_Portfolio/Portrait/IMG_6138.jpg';
 import portrait19 from './Photo_Portfolio/Portrait/IMG_6637.jpg';
 import portrait20 from './Photo_Portfolio/Portrait/IMG_7780.jpg';
-
 import landscape0 from './Photo_Portfolio/Landscape/90a8407e6b611658ae8f2f7748c173dc.jpg';
 import landscape1 from './Photo_Portfolio/Landscape/IMG_3105.JPG';
 import landscape2 from './Photo_Portfolio/Landscape/IMG_3106.jpg';
@@ -33,11 +32,10 @@ import landscape9 from './Photo_Portfolio/Landscape/IMG_6382.PNG';
 import landscape10 from './Photo_Portfolio/Landscape/IMG_6383.PNG';
 import landscape11 from './Photo_Portfolio/Landscape/IMG_6384.PNG';
 import landscape12 from './Photo_Portfolio/Landscape/IMG_6385.PNG';
-
 import commercial0 from './Photo_Portfolio/Commercial/1Y6A8185 - Copy.png';
 import commercial1 from './Photo_Portfolio/Commercial/Harvard_2023_Pictures_1.png';
-import commercial2 from './Photo_Portfolio/Commercial/IMG_3452.JPG';
-import commercial3 from './Photo_Portfolio/Commercial/II.jpg';
+import commercial2 from './Photo_Portfolio/Commercial/II.jpg';
+import commercial3 from './Photo_Portfolio/Commercial/IMG_3452.JPG';
 
 import wedding0 from './Photo_Portfolio/Wedding/5c01e6c34f3a3f7ce20ec1d7d84be445.jpg';
 import wedding1 from './Photo_Portfolio/Wedding/f0d66ce234a02d32c01ad7e312dd6be6.jpeg';
