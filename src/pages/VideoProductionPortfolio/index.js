@@ -23,7 +23,7 @@ const VideoProductionPortfolio = () => {
               <div className="video-showcase-FL responsive-iframe-container">
                 <iframe
                   title="FL-Video"
-                  src="//player.bilibili.com/player.html?aid=435951795&bvid=BV1z3411X7gq&cid=982346306&p=1"
+                  src="//player.bilibili.com/player.html?aid=603690138&bvid=BV14B4y1E7p8&cid=874269826&p=1"
                   allowFullScreen
                 ></iframe>
               </div>
