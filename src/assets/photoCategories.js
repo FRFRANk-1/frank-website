@@ -36,18 +36,17 @@ import commercial0 from './Photo_Portfolio/Commercial/1Y6A8185 - Copy.png';
 import commercial1 from './Photo_Portfolio/Commercial/Harvard_2023_Pictures_1.png';
 import commercial2 from './Photo_Portfolio/Commercial/II.jpg';
 import commercial3 from './Photo_Portfolio/Commercial/IMG_3452.JPG';
-
-import wedding0 from './Photo_Portfolio/Wedding/5c01e6c34f3a3f7ce20ec1d7d84be445.jpg';
-import wedding1 from './Photo_Portfolio/Wedding/f0d66ce234a02d32c01ad7e312dd6be6.jpeg';
-import wedding2 from './Photo_Portfolio/Wedding/IMG_8969.JPG';
-import wedding3 from './Photo_Portfolio/Wedding/IMG_8980.JPG';
-import wedding4 from './Photo_Portfolio/Wedding/IMG_8981.JPG';
-import wedding5 from './Photo_Portfolio/Wedding/IMG_8991.jpeg';
-import wedding6 from './Photo_Portfolio/Wedding/IMG_8992.jpeg';
-import wedding7 from './Photo_Portfolio/Wedding/IMG_8996.jpeg';
+import wedding1 from './Photo_Portfolio/Wedding/5c01e6c34f3a3f7ce20ec1d7d84be445.jpg'; 
+import wedding2 from './Photo_Portfolio/Wedding/f0d66ce234a02d32c01ad7e312dd6be6.jpeg';
+import wedding3 from './Photo_Portfolio/Wedding/IMG_8969.JPG';
+import wedding4 from './Photo_Portfolio/Wedding/IMG_8980.JPG';
+import wedding5 from './Photo_Portfolio/Wedding/IMG_8981.JPG';
+import wedding6 from './Photo_Portfolio/Wedding/IMG_8991.jpeg';
+import wedding7 from './Photo_Portfolio/Wedding/IMG_8992.jpeg';
+import wedding8 from './Photo_Portfolio/Wedding/IMG_8996.jpeg';
 
 
 export const portraitPhotos = [portrait0, portrait1, portrait2, portrait3, portrait4, portrait5, portrait6, portrait7, portrait8, portrait9, portrait10, portrait11, portrait12, portrait13, portrait14, portrait15, portrait16, portrait17, portrait18, portrait19, portrait20];
 export const landscapePhotos = [landscape0, landscape1, landscape2, landscape3, landscape4, landscape5, landscape6, landscape7, landscape8, landscape9, landscape10, landscape11, landscape12];
 export const commercialPhotos = [commercial0, commercial1, commercial2, commercial3];
-export const weddingPhotos = [wedding0, wedding1, wedding2, wedding3, wedding4, wedding5, wedding6, wedding7];
+export const weddingPhotos = [wedding1, wedding2, wedding3, wedding4, wedding5, wedding6, wedding7, wedding8];

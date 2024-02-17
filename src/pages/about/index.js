@@ -1,6 +1,6 @@
 import "./index.css";
 import { Link } from "react-router-dom";
-import picture1 from "../../assets/images/Frank_1.png";
+import picture1 from "../../assets/images/Frank's-pic.jpg";
 import picture2 from "../../assets/images/1Y6A8185 - Copy.png";
 // import picture3 from "../../assets/images/UIUC 2022.png";
 import picture4 from "../../assets/images/UI_UX_Genz.png";
