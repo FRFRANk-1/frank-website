@@ -1,11 +1,16 @@
 import Hexagon from "../../assets/images/IMG_4077.jpeg";
 import showcase from "../../assets/images/IMG_4554.jpeg";
 import "./index.css";
+import Contact_bar from "../../components/contact/contact_bar";
 
 function Home() {
   return (
     <div>
-      <div className="container">
+      <div className="container py-3">
+        <div className="d-flex">
+          <div className="p-1">
+        <Contact_bar />
+        </div>
         <div className="row">
           <div className="col intro ">
             <h1>
@@ -41,6 +46,7 @@ function Home() {
           <p className="hexagon-text">Hexagon Tempo drawer support system</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
