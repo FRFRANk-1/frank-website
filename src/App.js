@@ -3,6 +3,9 @@ import './App.css';
 import { HashRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnchor} from '@fortawesome/free-solid-svg-icons';
+
 import WebsiteRoutes from "./routes";
 import GlobalNav from "./components/navigation/nav-bar";
 
@@ -11,6 +14,7 @@ function App() {
   return (
       <div bg="dark" className="app">
       <HashRouter>
+        
         <div classname="App">
         <GlobalNav/>
         <WebsiteRoutes />
