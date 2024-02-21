@@ -9,7 +9,7 @@ const VideoLandscape = () => {
       <h1 className="title text-center py-4">Video Landscape</h1>
       <div className="video-showcase-FL responsive-iframe-container">
         <iframe
-          src="//player.bilibili.com/player.html?aid=603690138&bvid=BV14B4y1E7p8&cid=874269826&p=1"
+          src="//player.bilibili.com/player.html?aid=1100791250&bvid=BV1GA4m137qu&cid=1444839312&p=1"
           scrolling="no"
           border="0"
           frameborder="no"
@@ -20,10 +20,10 @@ const VideoLandscape = () => {
         </iframe>
       </div>
       <a
-        href="https://www.bilibili.com/video/BV14B4y1E7p8/?vd_source=29129ec6466690e99722869f8f8689c0"
+        href="https://www.bilibili.com/video/BV1je411j7SY/?vd_source=29129ec6466690e99722869f8f8689c0"
         className="video-link_uiuc "
       >
-        <h4 className="category-name text-center py-4">Vero, FL</h4>
+        <h4 className="category-name text-center py-4">Beautiful Sunset town - Narragansett, RI</h4>
       </a>
     </div>
   );
