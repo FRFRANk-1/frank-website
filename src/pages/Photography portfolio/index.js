@@ -7,6 +7,7 @@ import img1 from "../../assets/Photo_Portfolio/1Y6A0489.jpg";
 import img2 from "../../assets/Photo_Portfolio/90a8407e6b611658ae8f2f7748c173dc.jpg";
 import img3 from "../../assets/Photo_Portfolio/Harvard_2023_Pictures_1.png";
 import img4 from "../../assets/Photo_Portfolio/Wedding/IMG_8980.JPG";
+import Contact_bar from "../../components/contact/contact_bar";
 
 // PhotographyPortfolio.js
 // ... import statements ...
@@ -14,6 +15,12 @@ import img4 from "../../assets/Photo_Portfolio/Wedding/IMG_8980.JPG";
 function PhotographyPortfolio() {
   return (
     <div className="photo-portfolio container">
+      <div className="flex-container">
+        <div className="d-flex">
+          <div className="p-1">
+            <Contact_bar />
+          </div>
+        <div className="p-2">
       <h1 className="title text-center py-4">Photography Portfolio</h1>
       <div className="row">
         <div className="col">
@@ -43,6 +50,9 @@ function PhotographyPortfolio() {
           </Link>
           </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 }

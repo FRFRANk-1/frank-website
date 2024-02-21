@@ -1,0 +1,26 @@
+.contact-info-sticky {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    position: sticky;
+    top: 0; /* adjust this value to place it below your header or navigation bar */
+    background-color:#bfe3e9; /* or any color that fits your design */
+    padding: 5px;
+    
+    box-shadow: 0 2px 4px rgba(43, 2, 2, 0.1); /* Optional: adds a shadow for better separation */
+  }
+  
+  /* Additional styling to ensure links and text are presented clearly */
+  .contact-info-sticky a {
+    display: block; /* each link will be on its own line */
+    color: #075ebb; /* adjust the color to match your design */
+    text-decoration: none; /* removes underline from links */
+  }
+  
+  .contact-info-sticky p {
+    margin: 15px 0; /* adjust spacing between items */
+  }
+  
+  .contact-info-sticky {
+    border-radius: 10px;
+  }

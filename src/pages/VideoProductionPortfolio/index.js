@@ -1,9 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Contact_bar from "../../components/contact/contact_bar";
 
 const VideoProductionPortfolio = () => {
     return (
       <div className="video-portfolio container">
+        <div className="flex-container">
+          <div className="text">
+            <div className="p-1">
+              <Contact_bar />
+            </div>
+            <div className="p-2">
         <h1 className="title text-center py-4">Video Production Portfolio</h1>
         <div className="row">
           <div className="col-md-5 text-center">
@@ -55,6 +62,9 @@ const VideoProductionPortfolio = () => {
             </Link>
             </div>
         </div>
+      </div>
+      </div>
+      </div>
       </div>
     );
   };

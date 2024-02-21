@@ -23,3 +23,7 @@
     height: 100%;
     border: none;
   }
+  .p-2{
+    display:inline-flex;
+    width: fit-content;
+  }
