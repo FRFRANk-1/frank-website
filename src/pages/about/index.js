@@ -175,10 +175,10 @@ function about() {
               </a>
 
 
-              <div className="video-showcase-uiuc responsive-iframe-container">
+              <div className="video-showcase-RI responsive-iframe-container">
                 <iframe
-                  title="UIUC-Campus Tour"
-                  src="//player.bilibili.com/player.html?aid=261204747&bvid=BV1je411j7SY&cid=874049816&p=1"
+                  title="Beautiful Sunset town - Narragansett, RI"
+                  src="//player.bilibili.com/player.html?aid=1100791250&bvid=BV1GA4m137qu&cid=1444839312&p=1"
                   scrolling="no"
                   border="0"
                   frameborder="no"
@@ -193,7 +193,7 @@ function about() {
                 className="video-link_uiuc "
               >
                 <h4 className="video-descrip py-4">
-                  University of Illinois Urbana-Champaign
+                  Beautiful Sunset town - Narragansett, RI
                 </h4>
               </a>
               <br></br>

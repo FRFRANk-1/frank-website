@@ -22,8 +22,8 @@ const VideoProductionPortfolio = () => {
             <Link to="/VideoProductionPortfolio/VideoLandscape" className="photo-portfolio-link">
               <div className="video-showcase-FL responsive-iframe-container">
                 <iframe
-                  title="FL-Video"
-                  src="//player.bilibili.com/player.html?aid=603690138&bvid=BV14B4y1E7p8&cid=874269826&p=1"
+                  title="RI-Video"
+                  src="//player.bilibili.com/player.html?aid=1100791250&bvid=BV1GA4m137qu&cid=1444839312&p=1"
                   allowFullScreen
                 ></iframe>
               </div>
