@@ -17,6 +17,8 @@ import VideoLandscape from "./pages/VideoProductionPortfolio/VideoLandscape";
 import Vlog from "./pages/VideoProductionPortfolio/Vlog";
 import VideoCommericial from "./pages/VideoProductionPortfolio/VideoCommericial";
 import VideoWedding from "./pages/VideoProductionPortfolio/wedding";
+import VideoEvent from "./pages/VideoProductionPortfolio/VideoEvent";
+import VideoArtFilm from "./pages/VideoProductionPortfolio/VideoArtFilm";
 
 function WebsiteRoutes() {
 //   let { currentUser } = useSelector((state) => state.user);
@@ -33,7 +35,9 @@ function WebsiteRoutes() {
       <Route path="/PhotographyPortfolio/Wedding" element={<Wedding />} />
 
       <Route path="/VideoProductionPortfolio" element={<VideoProductionPortfolio/>} />
+      <Route path="/VideoProductionPortfolio/VideoEvent" element={<VideoEvent/>} />
       <Route path="/VideoProductionPortfolio/VideoLandscape" element={<VideoLandscape />} />
+      <Route path="/VideoProductionPortfolio/VideoArtFilm" element={<VideoArtFilm />} />
       <Route path="/VideoProductionPortfolio/Vlog" element={<Vlog />} />
       <Route path="/VideoProductionPortfolio/VideoCommericial" element={<VideoCommericial/>} />
       <Route path="/VideoProductionPortfolio/wedding" element={<VideoWedding />} />
